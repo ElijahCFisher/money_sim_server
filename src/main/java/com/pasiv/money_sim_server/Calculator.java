@@ -1,7 +1,7 @@
 package com.pasiv.money_sim_server;
 
 
-import com.fasterxml.jackson.databind.util.JSONPObject;
+import com.pasiv.money_sim_server.models.sources.User;
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 
@@ -35,7 +35,7 @@ public class Calculator {
 
     void income() {
         Calendar calendar = Calendar.getInstance();
-        if(currentUser.currentDay.getDay() == 5 && currentUser.currentDay.)
+//        if(currentUser.currentDay.getDay() == 5 && currentUser.currentDay.)
     }
     void expenses() {
 

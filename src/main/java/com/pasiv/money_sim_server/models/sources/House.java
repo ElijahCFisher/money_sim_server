@@ -1,4 +1,4 @@
-package com.pasiv.money_sim_server;
+package com.pasiv.money_sim_server.models.sources;
 
 import org.json.simple.JSONObject;
 

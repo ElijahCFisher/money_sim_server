@@ -1,19 +1,19 @@
-package com.pasiv.money_sim_server;
+package com.pasiv.money_sim_server.models.sources;
 
 
+import com.pasiv.money_sim_server.models.sources.House;
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 
 import java.util.ArrayList;
 import java.util.Date;
-import java.util.Iterator;
 
 public class User {
     double cash, stocks;
-    Date currentDay;
+    public Date currentDay;
     ArrayList<House> houses = new ArrayList<>();
 
-    User(JSONArray initial) {
+    public User(JSONArray initial) {
         JSONObject settings = (JSONObject) initial.get(0);
         cash = (double) settings.get("cash");
         stocks = (double) settings.get("stocks");
