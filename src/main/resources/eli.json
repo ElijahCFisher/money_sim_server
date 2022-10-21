@@ -1,0 +1,47 @@
+[
+  {
+    "type": "settings",
+    "start": {
+      "type": "date",
+      "val": "26-06/2022"
+    },
+    "end": {
+      "type": "money",
+      "val": 500000
+    }
+  },
+  {
+    "type": "income",
+    "start": {
+      "type": "date",
+      "val": "26-06-2022"
+    },
+    "end": {
+      "type": "money",
+      "val": 500000
+    },
+    "amount": 100000,
+    "raise/yr": ".05"
+  },
+  {
+    "type": "house",
+    "start": {
+      "type": "date",
+      "val": "15-11-2021"
+    },
+    "end": {
+      "type": "money",
+      "val": 500000
+    },
+    "price": 475000,
+    "owe": 410000,
+    "expenses": {
+      "total": 550
+    },
+    "morgagePayment": 2300,
+    "move out": {
+      "type": "cash",
+      "val": "40000"
+    }
+  }
+]
