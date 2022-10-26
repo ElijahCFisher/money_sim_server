@@ -1,4 +1,4 @@
-package com.pasiv.money_sim_server.models.sources;
+package com.pasiv.money_sim_server.models;
 
 
 import com.pasiv.money_sim_server.models.sources.House;

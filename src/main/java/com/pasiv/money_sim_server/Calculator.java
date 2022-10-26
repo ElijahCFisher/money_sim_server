@@ -1,7 +1,7 @@
 package com.pasiv.money_sim_server;
 
 
-import com.pasiv.money_sim_server.models.sources.User;
+import com.pasiv.money_sim_server.models.User;
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 
