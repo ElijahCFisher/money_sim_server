@@ -6,6 +6,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
+@CrossOrigin
 public class Controller {
 
     @GetMapping(value="/")
@@ -17,7 +18,7 @@ public class Controller {
     public static Scenario[] scenarios() {
         System.out.println("GETting scenarios for user");
         // TBI
-        return new Scenario[]{new Scenario(), new Scenario()};
+        return Service.scenariosFromJson("sources1ScenarioSettings.json", "sources1.json");
     }
 
     @PostMapping(value="/{scenarioId}/source/")
